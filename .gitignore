@@ -5,3 +5,23 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Uploaded event photos/videos/audio and any generated renders — large
+# personal media, not meant for version control. Small reusable assets like
+# public/brand/*.svg aren't matched by these (different extension), so they
+# still get tracked.
+public/*.jpg
+public/*.JPG
+public/*.jpeg
+public/*.JPEG
+public/*.png
+public/*.PNG
+public/*.mp4
+public/*.MP4
+public/*.mov
+public/*.MOV
+public/*.mp3
+public/*.MP3
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat

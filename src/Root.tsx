@@ -1,10 +1,12 @@
 import "./index.css";
-import { MyComposition } from "./Composition";
+import { CoffeeCursorShort } from "./CoffeeCursorShort";
+import { CoffeeCursorRecap } from "./CoffeeCursorRecap";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
-      <MyComposition />
+      <CoffeeCursorShort />
+      <CoffeeCursorRecap />
     </>
   );
 };
